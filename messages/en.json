@@ -9,5 +9,62 @@
     "copyright": "© 2026 Codegenic. All rights reserved.",
     "emailLabel": "Email",
     "instagramLabel": "Instagram"
+  },
+  "hero": {
+    "badge": "AI-Native Game Studio",
+    "title": "A game company that creates with",
+    "titleBrand": "AI",
+    "description": "A solo indie studio building games with Claude AI.\nOur first game 'Cosmic Daeng Guardians' launches November 2026.",
+    "cta": "See Our Game",
+    "ctaSecondary": "Learn More"
+  },
+  "about": {
+    "badge": "Who We Are",
+    "title": "AI-Native Game Studio",
+    "description": "Codegenic is a solo indie game studio that uses AI as the core development tool. Founded in March 2026, we're crafting our first game.",
+    "values": {
+      "ai": {
+        "title": "AI-First",
+        "description": "From design to code, we build everything together with Claude AI."
+      },
+      "global": {
+        "title": "Global",
+        "description": "Korean and English by default, crafting games for players worldwide."
+      },
+      "indie": {
+        "title": "Indie Spirit",
+        "description": "The freedom of solo development to rapidly realize creative ideas."
+      }
+    }
+  },
+  "game": {
+    "badge": "First Game",
+    "comingSoon": "Coming November 2026",
+    "title": "Cosmic Daeng Guardians",
+    "titleSub": "Cosmic Daeng Guardians: Defense",
+    "genre": "Hybrid Casual",
+    "platform": "iOS / Android",
+    "description": "Defend the universe with adorable space dogs! A hybrid casual game combining idle, tower defense, and gacha collection RPG.",
+    "features": {
+      "defense": {
+        "title": "Tower Defense",
+        "description": "Strategically place your daengs and defend against enemy waves"
+      },
+      "collection": {
+        "title": "Gacha Collection",
+        "description": "Collect and upgrade daeng characters with unique abilities"
+      },
+      "idle": {
+        "title": "Space Walk (Idle)",
+        "description": "Auto-collect resources even while offline with idle mechanics"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Let's Connect",
+    "title": "Collaboration & Inquiries",
+    "description": "Open to collaboration proposals, media inquiries, or just a friendly hello.",
+    "emailLabel": "Send an Email",
+    "instagramLabel": "Follow on Instagram"
   }
 }

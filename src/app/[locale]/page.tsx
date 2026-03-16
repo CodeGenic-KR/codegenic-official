@@ -1,4 +1,15 @@
-// Phase 3에서 섹션 컴포넌트 추가 예정
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import GameSection from "@/components/sections/GameSection";
+import ContactSection from "@/components/sections/ContactSection";
+
 export default function HomePage() {
-  return <div className="min-h-screen" />;
+  return (
+    <>
+      <HeroSection />
+      <AboutSection />
+      <GameSection />
+      <ContactSection />
+    </>
+  );
 }
