@@ -1,26 +1,40 @@
 @import "tailwindcss";
 
+/* ===== 커스텀 색상 팔레트 (다크 우주/SF 테마) ===== */
+@theme {
+  /* 배경 계열 */
+  --color-bg-base: #03050f;
+  --color-bg-surface: #090d1f;
+  --color-bg-card: #0f1530;
+
+  /* 주요 색상 */
+  --color-primary: #7c3aed; /* 퍼플 */
+  --color-primary-light: #a855f7;
+  --color-primary-dark: #5b21b6;
+
+  --color-accent: #06b6d4; /* 시안 */
+  --color-accent-light: #22d3ee;
+  --color-accent-dark: #0891b2;
+
+  --color-navy: #1e3a5f; /* 딥 네이비 */
+  --color-navy-light: #2d4f7a;
+
+  /* 텍스트 계열 */
+  --color-text-primary: #f0f4ff;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #475569;
+
+  /* 보더 */
+  --color-border: #1e293b;
+  --color-border-glow: rgba(124, 58, 237, 0.4);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #03050f;
+  --foreground: #f0f4ff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
