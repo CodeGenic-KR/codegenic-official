@@ -42,11 +42,14 @@
 
 ---
 
-## ⬜ Phase 4: SEO & 최적화
+## ✅ Phase 4: SEO & 최적화
 
-- [ ] metadata, OG 태그
-- [ ] robots.txt, sitemap.xml
-- [ ] Lighthouse 점수 확인
+- [x] 로케일별 동적 metadata (title, description, keywords, hreflang)
+- [x] Open Graph 태그 (og:title, og:description, og:locale, og:url)
+- [x] Twitter Card 태그
+- [x] 동적 OG 이미지 (next/og, edge runtime)
+- [x] robots.txt (`/robots.txt`)
+- [x] sitemap.xml (`/sitemap.xml`)
 
 ---
 
