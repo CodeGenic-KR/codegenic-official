@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "about": "About",
+    "games": "Games",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "A game company powered by AI",
+    "copyright": "© 2026 Codegenic. All rights reserved.",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "about": "소개",
+    "games": "게임",
+    "contact": "문의"
+  },
+  "footer": {
+    "tagline": "AI로 게임을 만드는 회사",
+    "copyright": "© 2026 Codegenic. All rights reserved.",
+    "emailLabel": "이메일",
+    "instagramLabel": "인스타그램"
+  }
+}

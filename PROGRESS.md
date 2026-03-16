@@ -15,19 +15,21 @@
 - [x] `.env.local` 생성 (이메일, 인스타그램 placeholder)
 - [x] `.gitignore` 업데이트 (`package-lock.json` 추가)
 - [x] 프로덕션 빌드 성공 확인
-- [ ] GitHub 레포 연결 & 첫 커밋 _(수동 작업)_
-- [ ] Vercel 프로젝트 연결 _(수동 작업)_
+- [x] GitHub 레포 연결 & 첫 커밋 (CodeGenic-KR/codegenic-official, SSH 인증)
+- [x] Vercel 프로젝트 연결 (Public 레포, Hobby 플랜, 자동 배포 설정)
 
 ---
 
-## ⬜ Phase 2: 레이아웃 & 디자인 시스템
+## ✅ Phase 2: 레이아웃 & 디자인 시스템
 
-- [ ] `layout.tsx` — 글로벌 폰트, SEO 메타데이터, 기본 배경
-- [ ] `Button` 컴포넌트
-- [ ] `AnimatedSection` 컴포넌트
-- [ ] `LanguageSwitcher` 컴포넌트
-- [ ] 네비게이션 바
-- [ ] Footer
+- [x] next-intl 설정 (routing.ts, request.ts, middleware.ts)
+- [x] messages/ko.json, messages/en.json
+- [x] `[locale]/layout.tsx` — Pretendard + Space Grotesk 폰트, SEO 메타데이터
+- [x] `Button` 컴포넌트 (primary / outline)
+- [x] `AnimatedSection` 컴포넌트 (Framer Motion viewport 감지)
+- [x] `LanguageSwitcher` 컴포넌트 (KO / EN 전환)
+- [x] 네비게이션 바 (고정 상단, blur 배경)
+- [x] Footer (이메일, 인스타그램 링크)
 
 ---
 
